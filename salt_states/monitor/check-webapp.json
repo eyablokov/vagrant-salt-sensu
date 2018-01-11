@@ -1,0 +1,10 @@
+{
+      "checks": {
+      "check-webapp": {
+      "command": "/opt/sensu/embedded/bin/check-process.rb -p gowebapp -C 1",
+      "interval": 30,
+      "occurrences": 1,
+      "subscribers": [ "webapp" ]
+        }
+      }
+}

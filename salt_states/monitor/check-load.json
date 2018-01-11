@@ -1,0 +1,10 @@
+{
+      "checks": {
+      "check-load": {
+      "command": "/opt/sensu/embedded/bin/check-load.rb -w L5",
+      "interval": 60,
+      "occurrences": 5,
+      "subscribers": [ "linux" ]
+        }
+      }
+}
